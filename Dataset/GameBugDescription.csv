@@ -1,0 +1,1140 @@
+File,Game,Descr1,Descr2,Descr1-GT,Descr2-GT,Bug Type,Source
+ka7yth,Cyberpunk 2077,"1. A person approaches a fence
+2. A car approaches a fence
+3. The car clips through a fence
+4. The car makes a U-turn","1. A car is driving next to a ledge
+2. The car drives over the ledge
+3. The car drives over the air
+4. The car drives back onto another ledge",3,3,Collision bug,https://www.reddit.com/r/GamePhysics/comments/ka7yth
+kae98l,Cyberpunk 2077,"1. A car clips through multiple containers
+2. The car disappears after the person attempts to approach the car
+3. The car clips through the ground
+4. A car driving in the air","1. A car is driving towards a closed shipping container
+2. The car collides with the shipping container
+3. The car drives inside the wall of the shipping container
+4. The car is inside of the shipping container",1,3,Collision bug,https://www.reddit.com/r/GamePhysics/comments/kae98l
+kbqzb0,Cyberpunk 2077,"1. A car hits another car while driving on the road
+2. The car drives beneath the other car
+3. The car clips through the other car
+4. Two cars separate and drive away","1. The player is driving a car towards another car on the road
+2. The player's car collides with the other car
+3. The player's car becomes entangled with the other car
+4. The player drives their car away from the other car",2,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/kbqzb0
+kbwq31,Cyberpunk 2077,"1. A person pulls out an invisible sword
+2. Another person attacks the person with a gun
+3. The person holding the invisible sword shakes his hand rapidly
+4. The person holding the invisible sword is killed","1. The player equips a sword in a menu
+2. The player exits the menu
+3. The player is holding up their empty hands
+4. The player attacks an enemy",1,3,Graphical bug,https://www.reddit.com/r/GamePhysics/comments/kbwq31
+kc7eum,Cyberpunk 2077,"1. A person approaches a policeman
+2. A hologram plays next to the person
+3. The policeman pulls out a gun and attacks the person
+4. The policeman slides back to the ground","1. The player walks up to a man
+2. A game information overlay pops up on the screen
+3. The player closes the overlay
+4. The man slides backwards while standing upright",4,4,Sliding objects,https://www.reddit.com/r/GamePhysics/comments/kc7eum
+kcd6h0,Cyberpunk 2077,"1. A person enters a car and drives it away
+2. The car is launched high up into the sky
+3. The car bounces off a sidewalk
+4. The car lands on a road and hits another car","1. The player enters a car
+2. The player drives the car forwards
+3. The car is sent flying upwards into the sky
+4. The car lands on the ground",2,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/kcd6h0
+kcsbg6,Cyberpunk 2077,"1. A person approaches a car parked on top of some debris
+2. The car clips through the debris which raises the front of the car up
+3. The front of the car falls back to the ground
+4. The person is displaced from his position","1. The player runs towards a parked car
+2. The player punches the parked car
+3. The front of the car flies up into the air
+4. The front of the car lands on the ground",2,3,Collision bug,https://www.reddit.com/r/GamePhysics/comments/kcsbg6
+kd3oxq,Cyberpunk 2077,"1. A car drives on a highway entrance
+2. The car is stopped by the traffic
+3. The car goes around the car in front of it and slightly hits another car
+4. The other car is pushed forward at a high speed resulting in a crash","1. The player drives their car forwards beside a stationary sports car
+2. The side of the player's car collides with the side of the sports car 
+3. The sports car is sent flying upwards and forwards in the air
+4. The sports car lands on the ground in front of several other cars",4,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/kd3oxq
+kd6wuo,Cyberpunk 2077,"1. A policeman shoots a person
+2. The person approaches the policeman
+3. The policeman holds a gun that is floating in the air
+4. The policeman slides backwards on the ground","1. The player walks towards an enemy who is shooting at the player
+2. The enemy slides backwards while standing upright
+3. The enemy is shot
+4. The enemy dies",3,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/kd6wuo
+keewmt,Cyberpunk 2077,"1. A person shoots a woman 
+2. The woman jumps up and falls to the ground
+3. The woman's left leg clips through her chest
+4. The person walks around the woman's body","1. The player shoots a crouching civilian in the back
+2. The civilian falls over dead
+3. The civilian lands on the ground
+4. One of the civilian's legs is bent backwards to touch their head",3,4,Collision bug,https://www.reddit.com/r/GamePhysics/comments/keewmt
+kevacz,Cyberpunk 2077,"1. A person approaches a container
+2. A woman clips through the door of the container
+","1. The player unlocks a shipping container with a key
+2. The shipping container is closed
+3. A woman walks through the closed gate of the shipping container
+4. The woman walks away from the shipping container",2,3,Collision bug,https://www.reddit.com/r/GamePhysics/comments/kevacz
+kg9ida,Cyberpunk 2077,"1. A person hops onto the base of a fence
+2. The game enters slow motion
+3. The person moves forward very quickly
+4. The person jumps back to the sidewalk","1. The player is standing on a guardrail
+2. The player aims their gun forwards
+3. The player stops aiming their gun
+4. The player slides forwards on the guardrail",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/kg9ida
+kms1wj,Cyberpunk 2077,"1. A person pulls out a pistol
+2. The person shoots at a woman
+3. The woman stands up and catches fire
+4. The woman crawls on the ground again while on fire","1. The player shoots a kneeling civilian
+2. The civilian stands up
+3. The player shoots the standing civilian
+4. The civilian teleports to a kneeling position",3,4,Logical bug,https://www.reddit.com/r/GamePhysics/comments/kms1wj
+kr5egn,Cyberpunk 2077,"1. A person approaches an oil tank
+2. A car beneath the oil tank clips through the ground
+3. The car falls beneath the game map
+4. The car is teleported to its original position","1. A car is pinned under a tank with the car's bottom half underground
+2. The player walks up to the car
+3. The car sinks further underground
+4. The car disappears",2,1,Collision bug,https://www.reddit.com/r/GamePhysics/comments/kr5egn
+mh1lb7,Cyberpunk 2077,"1. A person rides a motorcycle in a desert
+2. A car slides on the ground and is launched into the sky from a distance
+3. The car flies over the motorcycle
+4. The car falls back to the ground","1. A car is sliding out of control on a dirt road
+2. The car collides with a boulder
+3. The car bounces off of the boulder
+4. The car slides back in the other direction",2,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/mh1lb7
+nnlere,Cyberpunk 2077,"1. A person attempts to garrotes another person from the back
+2. The other person disappears
+3. The person carries an invisible body on his back
+4. The person drops the invisible body on the ground and carries it up again","1. The player initiates a melee attack from behind an enemy
+2. The enemy disappears
+3. The enemy re-appears facing the player
+4. The enemy dies",2,2,Object spawning/despawning,https://www.reddit.com/r/GamePhysics/comments/nnlere
+oqme57,Cyberpunk 2077,"1. A person approaches a pile of sundries
+2. A box clips into a locker case and they rotate on the ground
+ ","1. A shelf is rotating on top of other objects on the ground
+2. The shelf rolls off of the objects
+3. The shelf rolls up a crate
+4. The shelf falls onto the ground",2,1,Collision bug,https://www.reddit.com/r/GamePhysics/comments/oqme57
+p6xm78,Cyberpunk 2077,"1. A person rides a motorcycle on a road at high speed
+2. The motorcycle hits a pole and the person falls off the motorcycle
+3. The person gets back onto the motorcycle while it is positioned upside down
+4. The person falls beneath the game map","1. The player crashes a motorbike into the pole of a traffic signal
+2. The player falls off of the motorbike
+3. The player mounts the motorbike which is upside down on the road
+4. The player's torso and head are in the ground",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/p6xm78
+kcrjei,Cyberpunk 2077,"1. A person sits on a wheelchair
+2. Another person attacks the person on the wheelchair
+3. The person on the wheelchair stands up and clips through the wheelchair
+4. The person panics and runs away","1. The player punches a man in a wheelchair
+2. The man stands up inside the wheelchair
+3. The man covers his face with his arms while squatting
+4. The man runs away from the player",3,2,Logical bug,https://www.reddit.com/r/GamePhysics/comments/kcrjei
+kds5k9,Cyberpunk 2077,"1. A person approaches a vehicle
+2. The person opens the door and enters the vehicle
+3. The vehicle suddenly explodes
+4. The game freezes with the explosion scene in the background","1. A man enters a parked car
+2. The man starts to drive the car
+3. The car explodes, killing the man",4,3,Logical bug,https://www.reddit.com/r/GamePhysics/comments/kds5k9
+kmhnac,Cyberpunk 2077,"1. A person enters a car and drives it away
+2. The car is launched into the sky and appears to be severely damaged
+3. The car hits the side of a building
+4. The car hits and bounces off from a ceiling and falls to the ground","1. The player is driving a car on a street
+2. The car flies into the air while rotating
+3. The car collides with a building in the air
+4. The car falls onto the ground",2,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/kmhnac
+kvver3,Cyberpunk 2077,"1. A person walks towards a fence
+2. A car approaches the person from the other side of the fence
+3. The car drives through the fence and is damaged
+4. The fence remains intact","1. A car is driving up a ramp towards the player
+2. The car drives through a metal fence in front of the player
+3. Small pieces of metal fly into the air
+4. The car stops in front of the player",3,2,Collision bug,https://www.reddit.com/r/GamePhysics/comments/kvver3
+n1q2kj,Cyberpunk 2077,"1. A person rides a motorcycle in a wasteland
+2. The person rides the motorcycle up into the air
+3. The motorcycle stops in mid-air
+4. The motorcycle falls very slowly and perpendicularly to the ground","1. The player is riding a motorbike
+2. The player on the motorbike hits a bump in the ground
+3. The player on the motorbike jumps into the air
+4. The player on the motorbike stops moving mid-air",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/n1q2kj
+4aybhg,Fallout 4,"1. A person shoots another person
+2. The game enters a slow motion scene
+3. The bullet struck the person being shot at
+4. The person is launched high into the sky","1. The player initiates a shooting attack on an enemy
+2. The bullet shot by the player collides with the enemy
+3. The enemy is sent flying upwards into the air
+4. The enemy disappears off in the distance",4,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/4aybhg
+4kvw58,Fallout 4,"1. The person runs towards another jumping over a cover
+2. The game enters a slow motion scene
+3. The person attacks the other person using an axe while floating and moving mid-air
+4. The person falls back to the ground","1. The player runs towards a raider
+2. The player initiates a melee attack on the raider
+3. The player and the raider slide through the air
+4. The player completes their melee attack on the raider",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/4kvw58
+52etjd,Fallout 4,"1. A person aims a gun at another person standing on a staircase
+2. The person shoots the other person
+3. The other person is launched into the air 
+4. The other person falls on top of a radio tower and then falls back to the ground","1. The player initiates a shooting attack on a raider
+2. The bullet shot by the player collides with the raider
+3. The raider is sent flying upwards into the air
+4. The raider falls onto the ground",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/52etjd
+6am86x,Fallout 4,"1. The person aims at another person
+2. The person shoots another person using an invisible gun
+3. The other person is killed
+4. The person reloads the invisible gun","1. The player is holding out their left hand which is empty
+2. The player initiates an attack against an enemy
+3. The player shoots bullets from their empty hand at the enemy
+4. The player kills the enemy",2,3,Graphical bug,https://www.reddit.com/r/GamePhysics/comments/6am86x
+6d0zme,Fallout 4,"1. The person shoots and kills an NPC
+2. The person drops down a floor and aims at another person in slow motion
+3. The person shoots the other person and the latter is launched into the air
+4. The person falls back to the ground","1. The player initiates a shooting attack against a scavenger
+2. The player shoots a bullet at the scavenger
+3. The player's bullet collides with the scavenger
+4. The scavenger is sent flying backwards and upwards into the air",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/6d0zme
+8bspct,Fallout 4,"1. A person holding a gun shoots another person
+2. A splash of blood appears in front of the person and the gun disappears
+3. The person retreats backward
+4. The person falls on the ground","1. A super-mutant shoots a bullet at the player
+2. The bullet collides with the player
+3. The player dies
+4. The player walks backwards",2,4,Animation bug,https://www.reddit.com/r/GamePhysics/comments/8bspct
+8dcql9,Fallout 4,"1. A person shoots a monster in a basement
+2. The monster grabs the person and raises him up
+3. The graphic on the background is corrupted and only some parts are properly rendered
+4. The person drops to the ground and the monster runs away","1. An alpha deathclaw begins an attack against the player
+2. The attack pushes the player backwards
+3. The player is in the wall between two rooms
+4. The alpha deathclaw attack finishes",3,3,Graphical bug,https://www.reddit.com/r/GamePhysics/comments/8dcql9
+8j8e7n,Fallout 4,"1. A person holds a machete
+2. The person chops another person's head off using the machete
+3. Another person's body clips through the ground and slowly emerges
+4. The person attacks the person's body using the machete","1. The corpse of a feral ghoul reaver is stuck upside down in the ground
+2. The player uses their sword to hit the legs of the corpse
+3. The corpse rises up out of the ground
+4. The corpse lays on the ground",3,1,Collision bug,https://www.reddit.com/r/GamePhysics/comments/8j8e7n
+9o0jjr,Fallout 4,"1. A person stands in the basement of a building
+2. Another person walks by
+3. A box is rotating on the floor and spinning
+4. The person follows the spinning box","1. A box is rolling across the flat ground
+2. The moving wooden box collides with a stationary box
+3. The wooden box stops moving on the flat ground
+4. The wooden box start rolling across the flat ground",3,4,Spinning objects,https://www.reddit.com/r/GamePhysics/comments/9o0jjr
+9up92e,Fallout 4,"1. A person stands on the ground
+2. Another person's body clips through a fence door
+3. The door closes and with the body shaking
+4. The door opens again with the body shaking","1. The open gate of a chain-link fence is bisecting a corpse on the ground
+2. The player begins to close the gate of the chain-link fence
+3. The corpse moves with the gate as it closes
+4. The closed gate is bisecting the corpse on the ground",2,3,Collision bug,https://www.reddit.com/r/GamePhysics/comments/9up92e
+b6ipyu,Fallout 4,"1. The game enters a slow-motion scene
+2. A person attacks another person with a machete
+3. The other person's body is launched into the sky and disappears
+4. The person runs towards another person","1. The player initiates a melee attack against an assaultron
+2. The player completes the melee attack against the assaultron
+3. The player kills the assaultron
+4. The assaultron is sent flying high up into the air",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/b6ipyu
+bmkc24,Fallout 4,"1. A person holds a gun
+2. The person aims the gun at another person
+3. The other person's body clips through the ground with only his head above the ground
+4. A dog walks by","1. A man is partially inside the ground such that only his head is showing
+2. The man talks to the player
+3. The player looks around
+4. A dog stands on the man who is partially inside the ground",3,1,Collision bug,https://www.reddit.com/r/GamePhysics/comments/bmkc24
+cxi5k7,Fallout 4,"1. A dog appears to be walking yet does not change its position
+2. A person's legs start twisting and clip through his body
+3. The dog clips through the person's body
+4. The dog floats in the air","1. A man is sitting on a ledge
+2. One of the man's legs begins to rotate in a circle in front of the man
+3. The man's other leg begins to rotate in a circle towards the man
+4. Both of the man's legs rotate 360 degrees each in different directions",2,2,Animation bug,https://www.reddit.com/r/GamePhysics/comments/cxi5k7
+3t54th,Fallout 4,"1. The raider teleports from the building to the ground
+2. A person approaches a raider with a gun
+3. The raider shoots the person using a gun
+4. The person attacks the raider and kills him","1. A raider is standing by a window on the second-story of a building
+2. The raider moves through the wall of the building
+3. The raider falls to the ground
+4. The raider lands on the ground beside the building",1,2,Teleportation,https://www.reddit.com/r/GamePhysics/comments/3t54th
+3ugqpq,Fallout 4,"1. A person is standing on the ground while holding a gun
+2. Another person is standing in front of him and appears to be floating
+3. The person starts swimming in the air
+4. The person stopped swimming and appears to be standing and floating again","1. A man is standing on a street
+2. The man is moving his arms and legs while standing
+3. The man swims through the air above the street
+4. The man stands on the street",2,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/3ugqpq
+3ve0k3,Fallout 4,"1. A person enters a room where a woman is sitting on the ground
+2. The person approaches the woman who has a cat standing on her shoulder
+3. A conversation sequence starts
+4. The woman appreciates the player for finding her cat while the cat is standing on her shoulder all the time","1. A cat is standing on a woman who is sitting on the ground
+2. The woman stands up from the ground
+3. The cat remains standing on the woman
+4. The cat falls off of the woman",4,3,Logical bug,https://www.reddit.com/r/GamePhysics/comments/3ve0k3
+65samn,Fallout 4,"1. A person is holding a gun on a rail bridge
+2. The person is running toward some boxcars ahead of him
+3. Some kind of large and flat object is launched into the air from the forest in the distance
+4. The object falls back into the woods","1. The player is walking towards a forest
+2. A car appears flying upwards above the forest
+3. The car flies and spins around above the forest
+4. The car flies down into the forest",3,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/65samn
+cyurp4,Fallout 4,"1. A person is sheltering inside a building while a deathclaw attempts to attack from the outside
+2. The person leaves the building and engages with the deathclaw while being almost naked
+3. The deathclaw is pushed into the sky by the person
+4. The deathclaw falls back to the ground and is killed","1. The player starts an attack with their fists
+2. The players hits the enemy
+3. The enemy flies into the air
+4. The enemy falls onto the ground",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/cyurp4
+ot1z0l,Fallout 4,"1. A person shoots an NPC
+2. The person reloads the gun while a huge explosion takes place in the background
+3. The person fires again yet a bullet is blocked by a flying piece of a crate as a result of the explosion
+4. The NPC shoots the person while retreating","1. The player starts an attack with their gun
+2. The player begins to reload their gun
+3. The player finishes reloading their gun
+4. The player completes the attack with their gun",3,2,Logical bug,https://www.reddit.com/r/GamePhysics/comments/ot1z0l
+87h9jr,Far Cry 5,"1. A person holds a gun on the passenger seat of a pickup truck
+2. Another person's body slides on the road and passes the pickup truck
+","1. A man is laying on a road beside a truck
+2. The man slides along the road beside the truck as it drives forward
+3. The man slides forward ahead of the truck
+4. The man slides forwards diagonally across the road",2,2,Sliding objects,https://www.reddit.com/r/GamePhysics/comments/87h9jr
+88gjyp,Far Cry 5,"1. A person approaches the exit of a building
+2. The door is shaking violently at the exit
+3. The person is launched into the sky by the door
+4. The person falls back to the ground and is killed","1. The player is inside of a building
+2. The player walks through an open doorway
+3. The player steps outside
+4. The player flies into the sky",2,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/88gjyp
+88raxm,Far Cry 5,"1. A person approaches a pickup truck which shakes and floats in the air
+2. The person enters the pickup truck
+3. The pickup truck starts flying around the place and crashes into multiple buildings
+4. The person exits the pickup truck and falls back to the ground","1. A truck is bouncing up and down in place on the ground
+2. The player enters the bouncing truck
+3. The truck spins as it flies into the air
+4. The truck collides with a building",1,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/88raxm
+88rm11,Far Cry 5,"1. A person enters the back of a truck
+2. The person pulls a switch to close the rear doors
+3. The truck slides quickly towards the person
+4. The person is hit and killed by the truck","1. The player pulls a lever to close the back of a lorry
+2. The lorry's back doors close
+3. The lorry flies backwards towards the player
+4. The lorry collides with the player",3,3,Sliding objects,https://www.reddit.com/r/GamePhysics/comments/88rm11
+8gzjm3,Far Cry 5,"1. A person jumps off the second floor of a building
+2. The person falls to a staircase on the first floor
+3. The person's fingers twist upon touching the staircase
+4. Some outfit shows on the person's arm then disappears","1. The player jumps from a balcony towards the ground
+2. The player opens their wingsuit just above the ground
+3. The player collides with the ground
+4. The player's hands snap backwards",3,4,Animation bug,https://www.reddit.com/r/GamePhysics/comments/8gzjm3
+8h0kvj,Far Cry 5,"1. A person stands at the bottom of a cliff
+2. The person aims the gun at people at the top of the cliff
+3. Two people walk off the cliff and start walking in the air
+4. Two person falls on a rock in the middle of the cliffside","1. An enemy is walking towards the top of a cliff while dragging a man
+2. The enemy walks off the edge the cliff while dragging the man
+3. The enemy walks in the air dragging the man off the top of the cliff
+4. Both the enemy and the man fall towards the ground",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/8h0kvj
+8h7umc,Far Cry 5,"1. A person opens the door and exits a van
+2. The van is launched into the sky and flies away","1. The player brings the van they are driving to a stop
+2. The player exits the van
+3. The van flies away from the player
+4. The van falls into a ravine",2,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/8h7umc
+9emouq,Far Cry 5,"1. A person aims at a person using a sniper rifle
+2. The person shoots the person using the sniper rifle
+3. The person clips under a pickup truck
+4. The pickup rotates on the ground with the person's body","1. The player aims at an enemy who is behind a truck
+2. The player shoots a bullet through the truck windows at the enemy
+3. The enemy dies
+4. The truck flips upwards",3,4,Collision bug,https://www.reddit.com/r/GamePhysics/comments/9emouq
+9y2747,Far Cry 5,"1. A person approaches another person in the forest
+2. The person aims a gun at the other person
+3. The other starts to move up and down vertically
+4. The other person floats above the ground and flies away","1. A man jumps up into the air
+2. The man lands on the ground
+3. The man continues jumping in place in a static pose
+4. The man flies upwards into the air",3,4,Animation bug,https://www.reddit.com/r/GamePhysics/comments/9y2747
+bs1kqo,Far Cry 5,"1. A person drives a pickup truck behind a truck in the field
+2. The truck slides to the ground and stops
+3. The truck is teleported onto another car
+4. The truck is launched into the sky and falls back to the ground after rotating in the air","1. The player drives a car towards the side of a lorry
+2. The player's car collides with the side of the lorry
+3. The lorry teleports forwards
+4. The player drives towards the back of the lorry",3,3,Teleportation,https://www.reddit.com/r/GamePhysics/comments/bs1kqo
+ddqn81,Far Cry 5,"1. A helicopter lies upside down on the ground
+2. A person clips under the helicopter and slides onto the ground
+3. The helicopter flips back
+4. The person slides to a corner next to a building","1. The player walks towards a man who is pinned underneath a helicopter
+2. The player collides with the man
+3. The man rolls along the ground towards a wall
+4. The man collides with the wall",2,3,Collision bug,https://www.reddit.com/r/GamePhysics/comments/ddqn81
+e54tyz,Far Cry 5,"1. A person put another person at the back of a van
+2. The other person's body clips through the rear door of the van
+3. The person opens and closes the rear door of the van
+4. The van rotates with the body and is lifted into the air","1. The player drops a corpse onto the closed back doors of a van
+2. The corpse collides with the back doors of the van
+3. The corpse goes inside the closed back doors of the van
+4. The van flips into the air",2,3,Collision bug,https://www.reddit.com/r/GamePhysics/comments/e54tyz
+edwq7m,Far Cry 5,"1. A pickup truck is parked on a port
+2. A person stands on the port
+3. The person is pushed away from the pickup truck
+4. The person falls into the lake","1. A man is standing on dock beside a truck
+2. The man flies into the air away from the truck
+3. The man lands in the water beside the dock
+4. The man floats up in the water",3,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/edwq7m
+ewfjh1,Far Cry 5,"1. A truck floats and shakes in the air
+2. A quadbike clips through the top of the truck
+3. A car is pushed away from the truck
+4. The truck and the quadbike are launched into the air","1. A car is driving into the back of a truck carrying a quad-bike
+2. The truck is floating above the ground
+3. The player walks up to the truck
+4. The truck, sports car, and quad-bike fly into the air",1,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/ewfjh1
+f0gztz,Far Cry 5,"1. A person attacks a cow that is defecating
+2. The cow is pushed away from the person
+3. Some of the cow's feces is left floating in the air
+4. The feces in the air disappears","1. The player walks towards a cow
+2. The player punches the side of the cow
+3. The cow flies sideways into the air 
+4. The cow lands on its side on the ground",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/f0gztz
+gucv9x,Far Cry 5,"1. A person jumps over a fence
+2. A person aims a bow at another person
+3. The other person walks through some fences with his leg been twisted
+4. The other person is launched into the air","1. An enemy jumps over a fence
+2. The player shoots an arrow towards an enemy
+3. The arrow collides the the enemy as they land on the ground
+4. The enemy flies into the sky",3,4,Animation bug,https://www.reddit.com/r/GamePhysics/comments/gucv9x
+87lvv3,Far Cry 5,"1. A person holds a gun and moves around a corpse
+2. The person aims the gun toward the corpse
+3. The corpse is moving up and down on the ground
+4. The corpse appears to be waving his hands at the person","1. A corpse is laying on the ground across the mount of a machine gun
+2. The corpse is holding one of its arms up in the air
+3. The torso of the corpse moves up towards the arm in the air
+4. The torso of the corpse moves down towards the ground",3,2,Animation bug,https://www.reddit.com/r/GamePhysics/comments/87lvv3
+88upqe,Far Cry 5,"1. A plane flies above a person
+2. The person shoots the plane with a pistol
+3. The plane crashes into a tree and starts rotating in the air
+4. The plane crashes to the ground with no explosion","1. A plane falls to the ground spinning
+2. The plane crashes on the ground
+3. The plane takes off flying
+4. The plane flies into the sky away from the player",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/88upqe
+iwnb4h,Far Cry 5,"1. A person aims a gun at a truck
+2. The truck is floating in the air and appears to be slowly turning and spinning
+3. The person approaches and shoots the truck
+4. The truck is damaged with black smoke coming beneath the hood","1. A truck is floating around in the sky
+2. The truck collides with the top of a tree
+3. The truck turns around in the sky
+4. The truck floats in the sky away from the tree",2,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/iwnb4h
+mt4twx,Far Cry 5,"1. A person is climbing a hill
+2. The person slides down the hill
+3. The person hits a bear while sliding
+4. The person is launched high up into the air","1. The player crouch-slides down a hill
+2. The player collides with a bear
+3. The player stands up
+4. The player flies directly up into the sky",4,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/mt4twx
+2x16in,Grand Theft Auto V,"1. A bus spins in the middle of a junction
+2. Two people run towards the bus
+3. The spinning bus hits them
+4. The bus is damaged","1. A bus is on a road
+2. The bus is rotating about a vertical axis on the road
+3. The rotating bus collides with a person
+4. The person is knocked to the ground",1,2,Spinning objects,https://www.reddit.com/r/GamePhysics/comments/2x16in
+370a40,Grand Theft Auto V,"1. Screen shows the exterior of  a mansion
+2. A person falls below the game map
+3. The person lands on an invisible floor
+4. The person is teleported back to the mansion","1. A man is standing in a house
+2. The man falls through the floor
+3. The man is sitting in the air
+4. The man is sitting on a chair",2,2,Collision bug,https://www.reddit.com/r/GamePhysics/comments/370a40
+5u7it0,Grand Theft Auto V,"1. A person sits on a chair in front of a desk
+2. The chair starts to rise vertically with the person on it
+3.  Both the chair and the person clips through the ceiling
+4. The chair and the person keeps moving upwards until they completely disappear","1. A man is sitting on a desk chair
+2. The man on the chair floats upwards
+3. The man in the chair floats through the ceiling
+4. The main in the chair has disappeared through the ceiling",2,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/5u7it0
+6gx6yf,Grand Theft Auto V,"1. A person stands in front of the entrance of a building
+2. The person starts to walk abnormally
+3. The person attempts to jump but cannot do so resulting in him stumbling forward as he goes 
+4. The person attempts to move forward but instead slides on the ground slowly","1. The player is standing still
+2. The player starts walking
+3. The player's limbs twitch back and forth as the player takes a step
+4. The player stops walking ",3,3,Animation bug,https://www.reddit.com/r/GamePhysics/comments/6gx6yf
+8nyvtq,Grand Theft Auto V,"1. A taco van drives towards the entrance of a parkade
+2. The sign on the roof of the van hits the ceiling of the building and falls off
+3. Multiple signs spawns on the roof of the van
+4. The van exits the building on the other end leaving tons of taco signs inside the building","1. A taco truck enters a multi-level parking structure
+2. The sign on top of the taco truck collides with the ceiling
+3. The sign falls off of the taco truck
+4. A new sign appears on top of the taco truck",2,4,Object spawning/despawning,https://www.reddit.com/r/GamePhysics/comments/8nyvtq
+bao03t,Grand Theft Auto V,"1. A prison bus drives on a country road
+2. The bus is launched into the sky at a high speed
+3. The bus falls to the ground then runs off a hill and starts rolling in the air
+4. A mission fail notice displays on the screen","1. The player is driving a bus on a road
+2. The bus flies through the air
+3. The bus collides with the ground
+4. A game alert covers the screen telling the player they failed the mission",2,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/bao03t
+ddsemc,Grand Theft Auto V,"1. A person climbs up from the road and is hit by a car
+2. A taxi stops next to the person
+3. The person attempts to enter the taxi from the passenger door
+4. The person is teleported to the driver seat with the driver leaving the vehicle","1. The player is standing on a road
+2. The player walks next to a stationary taxi cab on the road
+3. The player disappears
+4. The player is inside of the stationary taxi cab",4,2,Teleportation,https://www.reddit.com/r/GamePhysics/comments/ddsemc
+hebqxt,Grand Theft Auto V,"1. A person walks on a dirt road next to the bottom of a cliff
+2. Another person rides a motorcycle at the bottom of a cliff
+3. The motorcycle moves upward along the cliff at an almost vertical angle with the person on it
+4. The motorcycle reaches the top of the cliff","1. The player is walking on a dirt road
+2. A man on a motorbike drives up to the bottom of a cliff
+3. The man on the motorbike drives vertically up the cliff
+4. The man on the motorbike is at the top of the cliff",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/hebqxt
+hsggww,Grand Theft Auto V,"1. A person rides a motorcycle and hits a fence
+2. The person falls off the motorcycle
+3. The person gets up from the ground
+4. The person clips under the motorcycle and is killed instantly","1. The player collides with a chain-link fence on a motorbike
+2. The player falls off of the motorbike
+3. The player stands up from under the motorbike
+4. The player dies",4,4,Collision bug,https://www.reddit.com/r/GamePhysics/comments/hsggww
+i1u5ks,Grand Theft Auto V,"1. A person gets off the bicycle
+2. The person shoots the bicycle with a gravity gun causing the bike to fall down the stairs
+3. The person is teleported onto the bicycle
+4. The person and the bicycle slide downward on the stair railing","1. The player shoots an explosive behind a bike at the top of stairs
+2. The  bicycle slides down a hand-rail towards the player
+3. The player instantly mounts the bicycle that is sliding 
+4. The player slides down the hand-rail on the bicycle",3,3,Teleportation,https://www.reddit.com/r/GamePhysics/comments/i1u5ks
+jngg00,Grand Theft Auto V,"1. A person drives an armoured van on a dirt road
+2. The back of the van hit a telephone pole while turning
+3. The van spins while floating in the air
+4. The van slowly descents back onto the road","1. A van collides with a tire on the side of the road 
+2. The van jumps into the air rotating about a vertical axis
+3. The van floats in mid-air while rotating
+4. The van lands on the ground",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/jngg00
+jz9s24,Grand Theft Auto V,"1. A cargo hook drops a shipment on the ground
+2. The helicopter freezes in the air 
+3. The propeller of the helicopter turns off
+4. The helicopter is still floating in the air","1. A military helicopter is flying in place in the air
+2. A game alert banner pops up at the top of the screen
+3. The helicopter's rotor blades stop rotating
+4. The helicopter flies in place in the air with stationary rotor blades",2,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/jz9s24
+2s5xon,Grand Theft Auto V,"1. A person is parachuting in the air
+2. A plane approaches the parachuter
+3. The plane hits the cord and lost its right wing
+4. The plane fell from the sky and explodes","1. A man is parachuting in the sky, and a plane is flying behind him in the distance
+2. The plane flies towards the man from behind
+3. The plane collides with the parachuting man
+4. The plane breaks and falls from the sky",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/2s5xon
+2x9t1p,Grand Theft Auto V,"1. A person approaches a dead body
+2. The person shoots the body
+3. The dead body bounces from the ground and fell from the sky
+4. The person shoots the body again","1. The player is walking on a road holding a gun
+2. A man is laying on the ground at the side of the road
+3. The player shoots the man who is laying on the ground
+4. The man who was on the ground immediately goes flying high up into the sky ",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/2x9t1p
+2yfic2,Grand Theft Auto V,"1. A player is driving a truck on a freeway
+2. The truck hits another pedestrian
+3. The truck bounces off from the pedestrian and damages the front
+4. The pedestrian remains standing on the road","1. A car is driving along the highway
+2. A pedestrian is standing in the middle of the highway
+3. The car collides with the pedestrian who is on the highway
+4. The car crumples and is knocked away from the standing pedestrian",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/2yfic2
+5hdw7n,Grand Theft Auto V,"1. A person fires a RPG three times towards a swimming pool
+2. The RPG repels from the surface of the water
+3. The RPG rotates in the air
+4. The RPG explodes","1. A man is holding a rocket launcher and standing beside a pool
+2. The man shoots the rocket launcher at the water in the pool
+3. The rocket which has been shot hits the surface of the water 
+4. The rocket bounces off the surface of the water and flies away",2,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/5hdw7n
+5ob8df,Grand Theft Auto V,"1. A person drives a supercar on the street
+2. The car hits a road sign
+3. Another vehicle spawns above the car and they crash
+4. The car flips over multiple times before coming to a stop","1. A car is driving on a road
+2. The car suddenly stops and crumples
+3. The car rolls over a couple of times and comes to a stop",3,2,Object spawning/despawning,https://www.reddit.com/r/GamePhysics/comments/5ob8df
+87lfze,Grand Theft Auto V,"1. A person is driving a car on a freeway
+2. The person jumps out of the vehicle
+3. The person is hit by another car and ejected into the sky
+4. The person falls from the sky and hits the beach","1. A car is driving down the highway
+2. A man jumps out of the car and collides with an oncoming vehicle
+3. The man gets hit into the air
+4. The man stays frozen in the same pose while flying through the air",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/87lfze
+fimwps,Grand Theft Auto V,"1. A person attempts to climb up a semi-trailer 
+2. An alert pops and the game is interrupted
+3. The game is resumed and the semi trailer has vanished
+4. The person is floating in the air with falling gesture","1. A man is running on a highway filled with cars
+2. The man climbs onto a trailer that is attached to a truck
+3. A game alert pops up and covers the screen
+4. The truck and trailer disappear and the man floats in the air",3,4,Object spawning/despawning,https://www.reddit.com/r/GamePhysics/comments/fimwps
+ga1h59,Grand Theft Auto V,"1. A person picks up the phone
+2. The person tries to go through the door while answering the phone
+3. The person appears to be walking but does not actually move as if he hits a wall
+4. The phone call ends and the person can go forward again","1. The player is standing inside a house
+2. The player walks around the house
+3. The player walks towards an open doorway
+4. The player walks in place in the open doorway",3,4,Collision bug,https://www.reddit.com/r/GamePhysics/comments/ga1h59
+ktrxq0,Grand Theft Auto V,"1. A person jumps out from a helicopter
+2. The person falls from the sky
+3. The person falls onto the roof of a car
+4. A mission cutscene starts","1. A man jumps out of a helicopter from high in the air, without a parachute
+2. The man falls through the sky
+3. The man falls onto a car on the ground and blood splatters
+4. A cutscene begins and the man walks towards the camera",3,4,Logical bug,https://www.reddit.com/r/GamePhysics/comments/ktrxq0
+3vyk8v,Just Cause 3,"1. A car runs off a ramp on a cliff
+2. The car hits the shaft of a building
+3. The car lands on a construction light
+4. The car explodes while the driver is inside","1. The player drives a car off of a jump
+2. The car flies forwards through the air
+3. The car collides with the top of a lamppost
+4. The car is on top of the lamppost",4,4,Logical bug,https://www.reddit.com/r/GamePhysics/comments/3vyk8v
+4hi2j4,Just Cause 3,"1. A person drives a monster truck down a hill
+2. A cargo train runs on a curved railway next to the truck
+3. Some boxcars start to shake and are launched into the air
+4. The whole train derails except the locomotive","1. The player is driving in a monster truck beside a moving train
+2. One of the railroad cars explodes in the train
+3. Several of the railroad cars detatch from one another in the train
+4. The front portion of the train continues moving forwards",3,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/4hi2j4
+5lvn7e,Just Cause 3,"1. A person drives a sportscar on a dirt road towards a junction
+2. The sportscar hits a person riding a motorcycle
+3. The motorcycle bounces off the car and hits another building
+4. The motorcycle explodes","1. The player is driving in a car towards a man riding a moped
+2. The car collides with the moped
+3. The moped is knocked towards a nearby stone wall
+4. The moped explodes violently as it collides with the stone wall",4,4,Logical bug,https://www.reddit.com/r/GamePhysics/comments/5lvn7e
+5ydvnz,Just Cause 3,"1. A person gets off a pickup truck
+2. A helicopter wreckage is on fire and floating in the air
+3. The person takes the pilot seat on the wreckage
+4. The person takes off the wreckage as if it is a functioning helicopter","1. A man walks up to a destroyed helicopter that is missing rotor blades
+2. The man enters the destroyed helicopter
+3. The man takes off in the destroyed helicopter
+4. The destroyed helicopter flies off into the sky",2,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/5ydvnz
+6748ug,Just Cause 3,"1. A person attaches another person to a moving car via a grappling hook
+2. The person is pulled to the car
+3. The person starts circling the car while it is moving
+4. The person circling the car is killed","1. The player attaches a grappling hook to a standing man
+2. The player attaches the other end of the grappling hook to a moving car
+3. The car drives forwards away from the attached man
+4. The man rotates around the car that is moving forwards",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/6748ug
+8xh12d,Just Cause 3,"1. A person stands at the entrance of a railway tunnel
+2. A fighter jet rotates and clips through the ground
+3. The person uses a grappling hook to hook onto the fighter jet
+4. The person is struck by the rotating fighter jet and falls to the ground","1. A military jet is stuck halfway into the ground as it rotates tip-over-tail
+2. The player attaches a grappling hook onto the military jet
+3. The player grapples towards the military jet
+4. The player is hurt as they collide with the military jet",2,1,Collision bug,https://www.reddit.com/r/GamePhysics/comments/8xh12d
+9v3lq7,Just Cause 3,"1. A SUV drives on a dirt road along a mountainside at a high speed
+2. The SUV runs over a rock and flips upside down
+3. The SUV slides on the road while upside down
+4. The SUV hits another rock and rotates on a mountainside","1. The player drives the right-half of a car off of a ramp-shaped rock
+2. The car flips upside down as it moves forward in the air
+3. The car slides forwards with its roof on the ground
+4. The car flips right-side up as the player continues driving",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/9v3lq7
+badmyc,Just Cause 3,"1. A person stands on the back of a pickup truck and shoots another SUV driving on the road
+2. The SUV explodes and pushes the pickup truck far away
+3. The pickup truck rams up a mountainside and lifts into the sky
+4. The truck falls back to the ground and the mission is failed","1. The player is standing in the back of a truck driving beside an SUV
+2. The player shoots at the engine of the SUV
+3. The SUV explodes
+4. The truck holding the player is sent flying into the air",2,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/badmyc
+de4mjk,Just Cause 3,"1. A person enters a helicopter and takes it off
+2. The helicopter pulls a motorcycle via a rope and swings it around in the air
+3. The motorcycle hits the helicopter and explodes
+4. The helicopter is pushed downward rapidly while rotating and explodes","1. The player is flying a helicopter while towing a moped in the air
+2. The player stops the helicopter while the moped continues moving
+3. The helicopter explodes as it collides with the moped
+4. The helicopter is sent falling to the ground",4,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/de4mjk
+g3vn3b,Just Cause 3,"1. A person is parachuting in the air towards a mountainside
+2. A huge cargo plane flies towards the mountainside
+3. The plane hits the mountainside and rotates
+4. The plane explodes after a second hit on the mountainside","1. A flying airplane collides with a mountain
+2. The airplane bounces off of the mountain
+3. The airplane falls towards another mountain
+4. The airplane explodes as it collides with the other mountain",3,2,Logical bug,https://www.reddit.com/r/GamePhysics/comments/g3vn3b
+lmvbjh,Just Cause 3,"1. A person stands on the ground facing a radio tower
+2. Debris is flying in the air around the radio tower
+3. The person is pulled to the radio twoer via a grappling hook
+4. The person falls beneath the ground upon touching the tower then teleported back to its original place","1. The player attaches a grappling hook to a mini-gun
+2. The player grapples towards the mini-gun
+3. The player collides with the mini-gun
+4. The player falls through the ground",2,4,Graphical bug,https://www.reddit.com/r/GamePhysics/comments/lmvbjh
+3v47cw,Just Cause 3,"1. A person is parachuting in the air
+2. The person landed in a parking lot after wingsuit flying through a gap between two buildings
+3. The person approaches a vehicle that has another vehicle clipping through it
+4. Two vehicles suddenly explode resulting in great damage to the cars around","1. Two cars are overlapping in the same parking space
+2. The player walks up to the cars
+3. Both of the cars explode",3,1,Collision bug,https://www.reddit.com/r/GamePhysics/comments/3v47cw
+3v4lg4,Just Cause 3,"1. A plane attempts to take off at a short distance yet failed and dives into water
+2. The plane bounces off from the water and spins in the air before crashing into the water again
+3. The plane bounces off from the surface of the water and loses both of its wings then starts spinning
+4. The spinning fuselage hits the foot of a mountain and explodes","1. An airplane falls into an ocean
+2. The airplane flies into the air
+3. The airplane falls on top of the ocean
+4. The airplane explodes",2,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/3v4lg4
+3vbsgb,Just Cause 3,"1. A person is driving a dune buggy and hits the wreckage of a car
+2. The dune buggy is launched into the air and catches fire
+3. The driver bails out of the dune buggy in mid-air and releases his parachute
+4. The dune buggy hits a bridge pier and explodes causing the bridge to collapse","1. A dune buggy is driving on a road
+2. The dune buggy collides with a destroyed car
+3. The dune buggy is sent flying into the air
+4. The dune buggy flies high through the air",2,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/3vbsgb
+4l15qz,Just Cause 3,"1. A person plants a bomb on the roof of a building
+2. The person grabs the side of a radio tower using a grappling hook and plants a bomb there
+3. The person is pulled to and hooks on a radar antenna and plants a bomb on it
+4. The antenna then starts spinning while the player is hooked on it","1. The player grapples onto a satellite dish
+2. The player holds onto the satellite dish
+3. The player spins around on the satellite dish",4,3,Spinning objects,https://www.reddit.com/r/GamePhysics/comments/4l15qz
+5kstbz,Just Cause 3,"1. A car is driving on a road with a person standing on its roof
+2. A deer appears to be running on the hood of the vehicle yet it does not move its position
+3. The deer lays its head down momentarily before appearing to be running again
+4. The car hits another car yet both the deer and the person remains standing on top of the vehicle","1. The player is standing on the roof of a car driving on a road
+2. A deer is on the hood of the car that is driving
+3. The deer runs in place on the hood of the car that is driving",2,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/5kstbz
+i98as3,Just Cause 3,"1. A pickup truck rams through a roadblock on a mountain road while being shot at
+2. An SUV overtakes the truck and then crashes to the side of the road after being hit by the truck
+3. The SUV explodes which launches the truck high into the air
+4. The truck falls from the sky and rolls off a mountainside","1. A pickup truck and an SUV are driving on a road beside a mountain cliff
+2. The SUV collides with the cliff 
+3. The SUV explodes beside the pickup truck
+4. The pickup truck flies up the side of the cliff",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/i98as3
+9rs60k,Red Dead Redemption 2,"1. A person walks toward a stagecoach
+2. The stagecoach clips through the door of a barn and is shaking
+3. The person attempts to open the door 
+4. The stagecoach clips out of the door","1. The front of a carriage is bisected by a barn door
+2. The player walks towards the carriage
+3. The player collides with the back of the carriage
+4. The carriage snaps up onto the outside wall of the barn",2,1,Collision bug,https://www.reddit.com/r/GamePhysics/comments/9rs60k
+9rsobx,Red Dead Redemption 2,"1. A person rides a horse with other people following him
+2. The person rides the horse through a railway
+3. Another horse hits the horse and launches the people on the other horse into the air
+4. People on the other horse fall to the ground","1. The player is riding a horse
+2. Two people on a horse run towards the player
+3. The two people's horse collides with the player's horse
+4. The two people's horse flips into the air above the player",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/9rsobx
+9vbw94,Red Dead Redemption 2,"1. A person rides a horse in the forest and is chased by a cougar
+2. The horse is panicked and throws the person off its back
+3. The person clips through the ground
+4. The person falls beneath the game map","1. The player is riding a horse
+2. The horse is frightened by a wolf 
+3. The horse bucks the player off
+4. The player falls through the ground",3,4,Collision bug,https://www.reddit.com/r/GamePhysics/comments/9vbw94
+a02s0m,Red Dead Redemption 2,"1. A person gets onto a horse
+2. The person rides the horse towards a small tree
+3. The person attempts to get off the horse
+4. The person is killed instantly upon touching the tree","1. The player rides a horse up next to a small tree
+2. The player dismounts the horse next to the small tree
+3. The player collides with the small tree
+4. The player dies",4,4,Logical bug,https://www.reddit.com/r/GamePhysics/comments/a02s0m
+a1n5w2,Red Dead Redemption 2,"1. A person stands on a street
+2. A policeman spawns next to the person
+3. The person and the policeman clip through the ground
+4. The person falls beneath the game map","1. The player gives a mushroom to a woman
+2. The woman eats the mushroom
+3. A man appears beside the woman
+4. The man, woman, and player fall through the floor",3,3,Collision bug,https://www.reddit.com/r/GamePhysics/comments/a1n5w2
+a6f516,Red Dead Redemption 2,"1. The person finishes dressing up
+2. The person clips through a tent
+3. The person slides onto the ground
+4. The person clips through the tent again","1. The player exits a menu
+2. The player is standing bisected by a small wooden shelter
+3. The player crouches down below the small wooden shelter
+4. The player crouch-walks out from under the small wooden shelter",2,2,Collision bug,https://www.reddit.com/r/GamePhysics/comments/a6f516
+aii9sv,Red Dead Redemption 2,"1. A person runs towards a run in a swamp
+2. The person gets on the horse and rides it away from a crocodile
+3. The person moves backward from the horseback and floats in the air
+4. The horse keeps running with the person riding in far back in the air","1. The player mounts a horse standing in a lake
+2. The horse begins running forwards
+3. The player stays floating in place
+4. The horse drags the player through the air",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/aii9sv
+b3kwff,Red Dead Redemption 2,"1. A person walks by a person on a horse
+2. Another person riding a horse hits the person on a horse and stops but the horse still appears to be running
+3. The person is launched into the air and the horse falls down
+4. The person gets back onto the horseback and rides away","1. A man riding on a horse collides with a stationary horse
+2. The man's horse runs in place
+3. The man's horse collides with the stationary horse
+4. The man is thrown off of his horse",2,2,Sliding objects,https://www.reddit.com/r/GamePhysics/comments/b3kwff
+defsxe,Red Dead Redemption 2,"1. A person approaches a man behind a workbench
+2. The man pushes a bowl off the table
+3. The person is pushed far away by the bowl and falls into a lake
+4. The person swims in the lake","1. The player is standing beside a man who is panning for gold
+2. The man slaps a pan that is near the player
+3. The pan collides with the player
+4. The player is sent flying backwards into a lake",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/defsxe
+dmf2y1,Red Dead Redemption 2,"1. A person jumps off a rock
+2. A horse lays down next to the rock
+3. The horse's fore legs clips through the ground
+4. The horse stands up and the person gets onto the horseback","1. A horse is in an upright pose with its front legs sticking into the ground
+2. The player walks up to and collides with the front the horse
+3. The horse is pushed backwards
+4. The horse stands up normally",3,1,Collision bug,https://www.reddit.com/r/GamePhysics/comments/dmf2y1
+eexbjp,Red Dead Redemption 2,"1. A person runs on a beach
+2. The person aims a gun at a floating bird in the sky
+3. The person shoots the floating bird
+4. The bird falls into the lake beneath it","1. A bird is not moving in the air
+2. The player shoots and kills the motionless bird
+3. The bird falls vertically down from the sky towards a lake
+4. The bird lands in the lake",2,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/eexbjp
+en6oju,Red Dead Redemption 2,"1. A person jumps off a rock
+2. The person spins while floating in the air
+3. The person falls on a slope and slides down along the slope
+4. The person gets up from the ground","1. The player stands beside a downward slope
+2. The player jumps down on the downward slope
+3. The player collides with the downward slope
+4. The player rotates about a vertical axis",2,4,Spinning objects,https://www.reddit.com/r/GamePhysics/comments/en6oju
+f45bgt,Red Dead Redemption 2,"1. A person floats in the air
+2. The person's limbs rotate and clip through the person's body","1. A person is floating above the ground with a contorted body
+2. The person hovers backwards in the air
+3. The person's limbs and torso rotate in different directions
+4. The person rotates about a vertical axis",1,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/f45bgt
+g7iqjq,Red Dead Redemption 2,"1. A person attacks a person with an axe
+2. The person attacks the person with a gun
+3. The person shoots another person with the gun
+4. The other person is pushed far away by the bullet into the bush","1. An enemy is running towards the player
+2. The player shoots the enemy
+3. The player's bullet collides with the enemy
+4. The enemy is sent flying backwards over a dirt road",4,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/g7iqjq
+g8r063,Red Dead Redemption 2,"1. A person stands in a butcher house
+2. Two deers that have been skinned are floating in the air
+3. The person walks toward the deers
+4. The person clips through the deer","1. Two deer carcasses are floating in the air
+2. The player walks beside the carcasses
+3. The player walks through one of the carcasses
+4. The player collides with the other carcass",2,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/g8r063
+gce2ne,Red Dead Redemption 2,"1. A person rides a horse on a grassland
+2.  The person aims a gun at a running deer
+3. The deer runs onto a tent
+4. The deer is launched into the sky","1. The player is on horseback chasing some deer
+2. The deer run towards an encampment
+3. A deer runs up the inclinced side of a small tent
+4. The deer goes flying upwards and forwards in the air",4,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/gce2ne
+gtit99,Red Dead Redemption 2,"1. A person rides a horse on a muddy road
+2. The person approaches a stagecoach
+3. The stagecoach jumps from the ground and remains in the air briefly
+4. The stagecoach falls back to the ground","1. The player rides a horse towards a stationary horse-drawn carriage
+2. The horse-drawn carriage jumps into the air
+3. The horse-drawn carriage lands on the ground
+4. The horse-drawn carriage begins moving away from the player",3,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/gtit99
+knwsk5,Red Dead Redemption 2,"1. A person approaches a table with four people sitting next to it
+2. One person suddenly afloat and turns away from the table with a sitting gesture
+3. The person changes to a standing gesture
+4. The person walks away","1. The player walks towards a man who is sitting on a box
+2. The sitting man begins to float above the box in a sitting pose
+3. The floating man rotates to his right
+4. The man stands up on the ground",2,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/knwsk5
+9wveio,Red Dead Redemption 2,"1. A person rides a horse through the entrance of a manor
+2. The horse stops in front of the manor's main door
+3. The horse approaches a hitching post and its chest touches the hitching post
+4. The person falls off the horse","1. The player is riding a horse
+2. The horse walks towards a hitching post
+3. The horse collides with the hitching post
+4. The player falls off of the horse",4,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/9wveio
+a0r66t,Red Dead Redemption 2,"1. A person picks up a dead body next to a dead horse
+2. A stagecoach rider witnesses the crime
+3. Weapon reel is displayed and the stagecoach is launched into the sky with the rider on it
+4. The stagecoach falls from the sky which killed the rider and the horses","1. A horse-drawn carriage is behind the player
+2. The horse-drawn carriage collides with a corpse that is on the ground
+3. The horse-drawn carriage flies into the air
+4. The carriage, horses, and driver fall onto the ground",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/a0r66t
+a67rgw,Red Dead Redemption 2,"1. A person riding a white horse approaches a crocodile
+2. The horse is scared and the rider is pushed high into the sky from the horseback
+3. The horse runs away from the crocodile
+4. The person falls into the swamp from the sky","1. The player falls off of a horse
+2. The player is bounced into the air
+3. The player flies forwards through the air
+4. The player lands in a lake",2,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/a67rgw
+a7fuxi,Red Dead Redemption 2,"1. A person overtakes another person who is riding a horse on foot
+2. The person stops as there is a cougar in front
+3. The cougar attacks the person which pushes him far away
+4. The cougar scares off the person who is riding the horse","1. The player is standing beside a cougar
+2. The cougar attacks the player
+3. The player flies backwards through the air
+4. The player lands on the ground",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/a7fuxi
+akmp2v,Red Dead Redemption 2,"1. A person swims towards a boat with passengers on a lake
+2. The person climbs up to the boat
+3. The boat suddenly flips and the person is submerged under the water
+4. The boat refloats to the surface of the water with the person standing on the boat and no other passengers","1. The player climbs into a row-boat filled with people
+2. The row-boat capsizes deep into the lake
+3. The row-boat floats upright onto the surface of the lake
+4. The player is standing on the row-boat",3,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/akmp2v
+cbfxl7,Red Dead Redemption 2,"1. A person is standing on grassland with guns on his back
+2. It appears to be a hot and sunny day
+3. There is smoke rising from the person's chest
+4. There is also smoke rising from the person's back as the camera rotates","1. The player is standing facing the camera
+2. Smoke is coming out of the player's body",3,2,Logical bug,https://www.reddit.com/r/GamePhysics/comments/cbfxl7
+d9ftws,Red Dead Redemption 2,"1. A person is sitting on a horse
+2. The person dismounts the horse
+3. Another horse next to the person is floating in the air with its feet not touching the ground
+4. The person crawls beneath the horse while the horse is still floating in the air","1. A horse is hovering above the ground
+2. The player is standing beside the hovering horse
+3. The player crouches down
+4. The player crouches under the horse",3,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/d9ftws
+grj2cy,Red Dead Redemption 2,"1. A person talks to another person and follows him
+2. The person leads a horse to follow him
+3. The person in the front suddenly falls beneath the ground and disappears
+4. Mission is failed","1. A man is walking in front of the player
+2. The man stops walking
+3. The man falls down into the ground
+4. The man has disappeared",3,3,Collision bug,https://www.reddit.com/r/GamePhysics/comments/grj2cy
+2sy9ks,The Elder Scrolls V - Skyrim,"1. A person stands on the field
+2. A monster from a distance floats and twists its body in the air
+ ","1. A dragon is twitching on the ground
+2. The twitching dragon flies into the air
+3. The twitching dragon rotates about multiple axes as it floats around
+4. The twitching dragon lands on the ground",2,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/2sy9ks
+30m5zc,The Elder Scrolls V - Skyrim,"1. A person stands in front of a desk
+2. Another person floats in the air behind the person
+3. The other person slowly moves toward the left
+4. The other person's feet are twisted","1. The player finishes talking to a man
+2. The player looks behind themselves
+3. A woman is floating in the air in a squatting pose
+4. The woman kicks her legs around in the air while floating in place",2,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/30m5zc
+30tui9,The Elder Scrolls V - Skyrim,"1. A person runs on the street
+2. A body slides on the ground and follows the person
+","1. A woman is underground with only their head showing
+2. The woman under the ground moves towards the player
+3. The player turns around
+4. The player runs away",2,1,Sliding objects,https://www.reddit.com/r/GamePhysics/comments/30tui9
+41xesk,The Elder Scrolls V - Skyrim,"1. A person stands in front of a monster
+2. The monster rotates and clips through the ground
+3. The monster falls off the cliff
+4. The person jumps off the cliff and follows the monster","1. The player uses the fus-ro-dah shout against a giant crab
+2. The giant crab collides with a rock behind it
+3. The giant crab spins around on the rock 
+4. The giant crab sinks into the ground",2,3,Collision bug,https://www.reddit.com/r/GamePhysics/comments/41xesk
+4k38zi,The Elder Scrolls V - Skyrim,"1. A person stands in a rooms
+2. Another person floats and swims in the air
+3. The other person swims around the room while afloat","1. A dark elf is floating above the ground in a swimming pose
+2. The dark elf swims across a room through the air
+3. The dark elf swims up to a door with a checkpoint
+4. The dark elf stands up on the ground",2,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/4k38zi
+5et06l,The Elder Scrolls V - Skyrim,"1. A monster rises from the ground at a distance
+2. A person attacks another person
+3. The monster slides on the ground to the right
+4. The monster disappears in the dark","1. The player is looking ahead at a skeletal dragon on the ground
+2. A frost attack appears in mid-air at the side of the player
+3. The frost attack damages the player
+4. The skeletal dragon slides across the ground",3,2,Sliding objects,https://www.reddit.com/r/GamePhysics/comments/5et06l
+7ypslx,The Elder Scrolls V - Skyrim,"1. Two people clips through a door
+2. Two people rotate inside the door","1. Two draugr corpses are partially through a closed iron door
+2. One of the draugar corpses spins around in the closed iron door
+3. The spinning draugar corpse collides with the arm of the other corpse
+4. The arm of the other corpse is flicked away from the spinning corpse",1,1,Collision bug,https://www.reddit.com/r/GamePhysics/comments/7ypslx
+8pyash,The Elder Scrolls V - Skyrim,"1. A person aims a bow at a monster in the distance
+2. The person shoots the monster with the bow
+3. The monster is launched into the sky
+4. The monster falls back to the ground","1. The player shoots an arrow into the distance
+2. The arrow collides with a mammoth on the ground
+3. The mammoth flies up into the air
+4. The mammoth lands on the ground",3,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/8pyash
+adi3wi,The Elder Scrolls V - Skyrim,"1. A person runs in a forest
+2. Another person lies and slides on the ground 
+3. The other person follows the person who is running
+","1. The player's follower is laying face-down on the ground
+2. The player walks away from their follower
+3. The follower slides along the ground towards the player
+4. The player initiates a conversation with the follower",2,3,Sliding objects,https://www.reddit.com/r/GamePhysics/comments/adi3wi
+bqf481,The Elder Scrolls V - Skyrim,"1. A person follows a skeleton in a basement
+2. The skeleton twists and moves around the basement rapidly","1. A draugr is floating in mid-air
+2. The draugr is spinning around in multiple directions in mid-air
+3. The draugr floats towards the ground
+4. The draugr floats through the ground",2,1,Animation bug,https://www.reddit.com/r/GamePhysics/comments/bqf481
+bqykwj,The Elder Scrolls V - Skyrim,"1. A person attacks another person from the back
+2. The other person counters the attack via a sword
+3. The person is pushed away and falls beneath the game map
+4. The is teleported around the room with a twisting body","1. The enemy kills the player with a finishing move
+2. The player falls to the ground
+3. The player collides with the ground
+4. The player flies across the room",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/bqykwj
+bwpqn8,The Elder Scrolls V - Skyrim,"1. A person jumps on top of a bucket
+2. The person attempts to pick up the bucket
+3. The bucket is lifted from the ground
+4. The bucket and the person float above the ground and move vertically to the sky","1. The player jumps on a bucket
+2. The player stands on the bucket
+3. The player picks up the bucket that they are standing on
+4. The player floats up into the sky on the bucket",4,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/bwpqn8
+g6j18i,The Elder Scrolls V - Skyrim,"1. A person approaches a campsite
+2. A horse stands on top of another horse
+3. The person approaches the horses
+4. The horse on top is launched into the sky and falls back to the ground","1. A horse is floating above another hose
+2. The player walks towards the horses
+3. The player collides with the floating horse
+4. The floating horse flies into the air",2,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/g6j18i
+gmjrjg,The Elder Scrolls V - Skyrim,"1. A person stands in a room
+2. The screen goes dark
+3. The person falls beneath the floor into a tunnel
+4. The person is struck by a piece of rock","1. The player is standing beside a bandit corpse in a dwemer lift
+2. The player and bandit corpse fall through the floor of the lift
+3. The player collides with the wall of the shaft of the lift
+4. The player dies",3,2,Collision bug,https://www.reddit.com/r/GamePhysics/comments/gmjrjg
+k93v3w,The Elder Scrolls V - Skyrim,"1. A person shoots arrows at a tiger using a bow
+2. The tiger falls down
+3. The tiger stands up and starts to spin
+4. The tiger stops spinning and faces the person","1. A sabre cat is standing on the slope of a mountain
+2. The player shoots an arrow at the sabre cat 
+3. The arrow collides with the sabre cat
+4. The sabre cat spins around in a circle",3,4,Spinning objects,https://www.reddit.com/r/GamePhysics/comments/k93v3w
+od1uj1,The Elder Scrolls V - Skyrim,"1. A person attacks a bear and a monster inside a cave
+2. The bear is launched upwards
+3. The bear clips through the ceiling of the cave
+4. The bear is teleported in front of the person","1. The player uses a lightning spell on a cave bear
+2. The cave bear turns to run away
+3. The cave bear runs up to the entrance of a cave
+4. The cave bear flies into the air in front of the cave entrance",2,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/od1uj1
+4h86b7,The Elder Scrolls V - Skyrim,"1. The game resumes from the menu
+2. Some kind of animal falls from the sky to the woods in the distance
+3. The person turns around
+4. An elephant falls from the sky to the woods in the distance","1. A mammoth is floating in the air
+2. The mammoth falls to the ground
+3. The player turns around 360 degrees
+4. A mammoth is floating in the air",2,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/4h86b7
+5i6l9m,The Elder Scrolls V - Skyrim,"1. A person executes another with bare hands
+2. A person looks down on the two corpses on the ground
+3. The two corpses clip into each other and start spinning horizontally
+4. The person moves around the spinning corpses and jumps","1. The player kills an enemy
+2. The enemy's corpse falls to the ground
+3. The enemy's corpse collides with another corpse on the ground
+4. The corpses spin together in a circle on the ground",3,4,Collision bug,https://www.reddit.com/r/GamePhysics/comments/5i6l9m
+ats6j3,The Elder Scrolls V - Skyrim,"1. A woman leans on a tree and crosses her hands
+2. Another woman stands in front of the woman
+3. The woman smashes the woman leaning on the tree with a hammer
+4. The woman leaning on a tree does not move","1. A blacksmith is standing facing a warrior who is leaning against a wooden post
+2. The blacksmith hits the warrior in the head with a hammer
+3. The warrior continues leaning against the wooden post",4,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/ats6j3
+c25tpy,The Elder Scrolls V - Skyrim,"1. A person attacks a bear on a hill
+2. The bear is launched into the sky
+3. The bear twists its body violently while flying in the shy with black cylinders reaching out from its body
+4. The bear flies away and disappears","1. The player uses a magic spell to freeze a bear
+2. The bear rolls on the ground down a hill while frozen
+3. The bear flies into the air while frozen
+4. The limbs of the bear stretch out as the bear flies in the air",2,3,Irregular force,https://www.reddit.com/r/GamePhysics/comments/c25tpy
+37359t,The Witcher 3 - Wild Hunt,"1. A person approaches a prison cell
+2. The door of the prison cell shakes and clips through the prisoner","1. The player walks towards a closed cage door
+2. The player collides with the cage door
+3. The cage door swings back slightly
+4. The cage door becomes entangled with a prisoner sitting in the cage ",2,4,Collision bug,https://www.reddit.com/r/GamePhysics/comments/37359t
+37pq7x,The Witcher 3 - Wild Hunt,"1. A person is attacked by multiple people in a campsite
+2. The person uses a sword to chop another person's head off
+3. The other person's head is launched into the sky
+4. The other person's body is launched into the sky","1. The player attacks an enemy
+2. The player opens a game overlay to select a sign
+3. The player closes the game overlay
+4. The enemy flies into the air",3,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/37pq7x
+38pqv4,The Witcher 3 - Wild Hunt,"1. A person rides a horse down a mountainside
+2. The horse floats in the air
+3. The horse is positioned vertically with its legs not touching the ground
+4. The person and the horse stumble down the mountainside","1. The player is riding a horse sliding down a steep mountainous slope
+2. The horse's torso is perpendicular to the slope as the horse slides down
+3. The horse collides with a rock on the side of the slope
+4. The horse's legs flail around in the air as the horse slides down",2,2,Irregular force,https://www.reddit.com/r/GamePhysics/comments/38pqv4
+3s0f4s,The Witcher 3 - Wild Hunt,"1. The person jumps onto the railing of a staircase
+2. The person clips through the pole of a shack
+3. The person clips through the ceiling of the shack
+4. The person freezes in mid-air","1. The player climbs on top of a fence
+2. The player reaches out into the air 
+3. The player climbs up the air
+4. The player stands on the head of a soldier",2,3,Collision bug,https://www.reddit.com/r/GamePhysics/comments/3s0f4s
+49fmgr,The Witcher 3 - Wild Hunt,"1. The person floats in the air
+2. The person walks in the air with his legs twisted","1. The player is floating above the ground with compressed legs
+2. The player walks in the air above the ground
+3. The player walks in the air over a dog that is on the ground
+4. The player stands still hovering above the ground",1,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/49fmgr
+4memse,The Witcher 3 - Wild Hunt,"1. A person rides a horse down a hill
+2. The horse lifts its fore legs and is positioned vertically
+3. The horse continues running with only two back legs
+4. The horse reaches the bottom of the hill and returns to normal","1. The player is riding a horse on a trail
+2. The horse stands upright while running
+3. The horse stops running
+4. The horse stands back on all four legs",2,2,Animation bug,https://www.reddit.com/r/GamePhysics/comments/4memse
+4mth2n,The Witcher 3 - Wild Hunt,"1. The person floats in the air
+2. The person walks in the air with his legs twisted","1. The player is floating above the ground in a seated pose
+2. The player stands up while floating above the ground
+3. The player floats above the ground standing with compressed legs
+4. The player runs across the air with compressed legs",1,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/4mth2n
+502zx9,The Witcher 3 - Wild Hunt,"1. A person reaches a room with no other person in it
+2. The game exits a pause screen and a person spawns in the room
+3. The person starts a conversation with the person in the room
+4. The person in the room's head is not rendered","1. The player begins meditating outside of a shop
+2. The player finishes meditating outside of the shop
+3. The shop keeper has appeared in his shop
+4. The shop keeper is standing in a T-pose",4,4,Graphical bug,https://www.reddit.com/r/GamePhysics/comments/502zx9
+5hs8bl,The Witcher 3 - Wild Hunt,"1. A person runs on the street
+2. The person pushes an animal on the street
+3. The animal faces sideways and slides on the ground","1. The player runs towards a dog facing sideways
+2. The player collides with the dog
+3. The player runs forward pushing the dog sideways
+4. The dog slides sideways across the ground as the player runs",3,3,Sliding objects,https://www.reddit.com/r/GamePhysics/comments/5hs8bl
+70heo2,The Witcher 3 - Wild Hunt,"1. A person stands in a room
+2. Another person walks around the room
+3. The other person clips through the floor with twisted legs","1. The player walks up to a poor townsman
+2. The poor townsman is squatting on the floor with compressed legs
+3. The poor townsman begins to walk with compressed legs
+4. The poor townsman walks in a circle with compressed legs",3,2,Collision bug,https://www.reddit.com/r/GamePhysics/comments/70heo2
+8gh9ah,The Witcher 3 - Wild Hunt,"1. A person approaches a horse in the forest
+2. The person gets on the horse
+3. The weather suddenly changes from sunny to rainy
+4. The person rides the horse away","1. The player calls their horse
+2. The player begins to mount their horse
+3. The sunny day becomes a rainy night
+4. The player finishes mounting their horse",3,3,Logical bug,https://www.reddit.com/r/GamePhysics/comments/8gh9ah
+8j5q2a,The Witcher 3 - Wild Hunt,"1. A person rides a horse down a hill
+2. The horse lifts its fore legs and is positioned vertically
+3. The horse continues running in the air
+4. The horse is positioned normally again","1. The player is riding a horse down a mountain trail
+2. The horse stands upright on its back legs as it runs down the trail
+3. The horse collides with a snowbank on the side of the trail
+4. The horse stands back on all four legs",2,2,Animation bug,https://www.reddit.com/r/GamePhysics/comments/8j5q2a
+940yt4,The Witcher 3 - Wild Hunt,"1. A person rides a horse near a shore
+2. The horse rides the horse toward the sea
+3. The horse disappears into the sea
+4. The person swims back ashore","1. The player rides a horse towards the ocean
+2. The horse jumps off of a ledge with the player riding it
+3. The horse lands in the water with the player riding it
+4. The horse disappears",3,4,Object spawning/despawning,https://www.reddit.com/r/GamePhysics/comments/940yt4
+ct7rhe,The Witcher 3 - Wild Hunt,"1. A person rides a horse down a hill
+2. The horse lifts its fore legs and is positioned vertically
+3. The horse continues running and floating in the air
+4. The horse is positioned normally again at the bottom of the hill","1. The player is riding a horse
+2. The horse stands upright on its back legs as it runs
+3. The horse stands back on all four legs as it runs
+4. The horse's front-right leg rotates in the air as the horse runs",2,2,Animation bug,https://www.reddit.com/r/GamePhysics/comments/ct7rhe
+ejjj72,The Witcher 3 - Wild Hunt,"1. A person attacks a monster in the dark
+2. The monster freezes at its position
+3. The monster shakes his body
+4. The monster slides on the ground to move","1. The player throws a devil's puffball at a howler
+2. The devil's puffball releases poison gas beside the howler
+3. The howler slides across the floor while twitching
+4. The howler rotates by sliding on the floor",2,3,Animation bug,https://www.reddit.com/r/GamePhysics/comments/ejjj72
+fxz2ac,The Witcher 3 - Wild Hunt,"1. The person lines up at a horse race
+2. Another person rides the horse and passes the person
+3. The other person's horse slides on the ground without moving the legs
+4. The person's horse hit a small tree and freezes its position","1. The player is riding a horse next to a competing horse rider
+2. The competing horse slides across the ground without moving its legs
+3. The player's horse collides with the side of the competing horse
+4. The player's horse runs past the competing horse",3,2,Sliding objects,https://www.reddit.com/r/GamePhysics/comments/fxz2ac
+3875qv,The Witcher 3 - Wild Hunt,"1. A person attacks another person next to an ocean
+2. The person executes the other one
+3. A level-up notice appears on the screen
+4. The person's head is been chopped off and the body falls into the ocean","1. The player uses a sword to strike an enemy across the neck
+2. The enemy is decapitated
+3. The head of the enemy flies into the air
+4. The body of the enemy flies into the air",4,4,Irregular force,https://www.reddit.com/r/GamePhysics/comments/3875qv
+3apnnv,The Witcher 3 - Wild Hunt,"1. A person clips through a door into a room
+2. The person attacks the people inside the room
+3. The person dodges back and clips through the door again
+4. The person clips through the door to attack again","1. The player walks up to a closed door 
+2. The player steps through the closed door
+3. The player attacks an enemy
+4. The player rolls backs through the closed door",1,2,Collision bug,https://www.reddit.com/r/GamePhysics/comments/3apnnv
+447cuk,The Witcher 3 - Wild Hunt,"1. A person stands on the ground while holding a torch
+2. Another person is floating in the air
+3. The person floating in the air seems to be dancing
+4. The person floating in the air moves back and forward","1. A boy is floating in the air above the player
+2. The boy skips forward in the air
+3. The boy turns around
+4. The boy skips back the other direction in the air",2,1,Irregular force,https://www.reddit.com/r/GamePhysics/comments/447cuk
+5k4mvi,The Witcher 3 - Wild Hunt,"1. A person exits a room through its door
+2. The person exits a building and runs away from it
+3. The person runs back to the front door of the building
+4. A horse stands with only two legs between the poles of the building","1. The player is running on a street
+2. The player whistles for their horse to appear
+3. The player runs around a corner to their horse
+4. The horse is floating with its head stuck in a pillar",4,4,Animation bug,https://www.reddit.com/r/GamePhysics/comments/5k4mvi
+bcbcd4,The Witcher 3 - Wild Hunt,"1. A person approaches the corner of a shack
+2. There is a pit at the corner of the shack
+3. The person drops into the pit
+4. The person appears to be falling yet his position does not actually move","1. The player is walking in a house
+2. The player walks over top of a basement shaft
+3. The player falls into the basement shaft
+4. The player hovers near the top of the basement shaft",4,4,Animation bug,https://www.reddit.com/r/GamePhysics/comments/bcbcd4
