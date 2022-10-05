@@ -1,6 +1,4 @@
-# Anonymized Repository
-
-Large Language Models are Pretty Good Zero-Shot Video Game Bug Detectors
+# Large Language Models are Pretty Good Zero-Shot Video Game Bug Detectors
 
 <div>
 
