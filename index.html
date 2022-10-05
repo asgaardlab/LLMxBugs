@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Large Language Models are Pretty Good Zero-Shot Video Game Bug Detectors">
+  <meta name="keywords" content="GPT, GPT3, LLM, LLMs, Zero-Shot, Game, Video Game Bug Detection">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Large Language Models are Pretty Good Zero-Shot Video Game Bug Detectors </title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C2XVKLMHHM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-C2XVKLMHHM');
+  </script>
+
+
+  <link rel="stylesheet" href="https://gradio.s3-us-west-2.amazonaws.com/2.6.2/static/bundle.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+
+  <style>
+    ol li {
+      list-style: none;
+      position: relative;
+    }
+
+    ol.alpha {
+      counter-reset: alpha
+    }
+
+    ol.alpha>li:before {
+      counter-increment: alpha;
+      content: "(" counter(alpha, lower-alpha)") "
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Large Language Models are Pretty Good Zero-Shot Video Game Bug
+              Detectors </h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://taesiri.com">Mohammad Reza Taesiri</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://asgaard.ece.ualberta.ca/">Finlay Macklon</a><sup>1</sup>,</span>
+              <span class="author-block">
+                Yihe Wang<sup>1</sup>,</span>
+              <span class="author-block">
+                Hengshuo Shen<sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://asgaard.ece.ualberta.ca/">Cor-Paul Bezemer</a><sup>1</sup>,
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>University of Alberta,</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/TBA.pdf" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/TBA" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/asgaardlab/LLMxBugs"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Dataset Link.
+                <span class="link-block">
+                  <a href="https://drive.google.com/drive/folders/1pn5rpixj8KCRWsEGO8bvFagjZwOIt-My?usp=sharing"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-images"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Video game testing requires game-specific knowledge as well as common sense reasoning about the events in
+              the game. While AI-driven agents can satisfy the first requirement, it is not yet possible to meet the
+              second requirement automatically.
+              Therefore, video game testing often still relies on manual testing, and human testers are required to play
+              the game thoroughly to detect bugs. As a result, it is challenging to fully automate game testing.
+              In this study, we explore the possibility of leveraging the zero-shot capabilities of large language
+              models for video game bug detection.
+              By formulating the bug detection problem as a question-answering task, we show that large language models
+              can identify which event is buggy in a sequence of textual descriptions of events from a game. To this
+              end, we introduce the <span class="dnerf">GameBugDescriptions</span> benchmark dataset, which consists of
+              167 buggy gameplay videos and a total of 334 question-answer pairs across 8 games.
+              We extensively evaluate the performance of six models across the OPT and InstructGPT large language model
+              families on our benchmark dataset.
+              Our results show promising results for employing language models to detect video game bugs. With the
+              proper prompting technique, we could achieve an accuracy of 70.66%, and on some video games, up to 78.94%.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="d-flex" style="height: 200px;">
+
+  </div>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Sample Detection</h2>
+        </div>
+      </div>
+      <div class="columns is-centered">
+
+        <!-- Horse on the air -->
+        <div class="column">
+          <div class="content">
+            <video id="dollyzoom" autoplay="" controls="" muted="" loop="" height="100%">
+              <source src="https://asgaardlab.github.io/LLMxBugs/static/videos/video.mp4" type="video/mp4">
+            </video>
+            <h4 class="title is-6">Video of an airplane crashes after hitting parachute cords</h4>
+
+            <p>
+              <a href="https://www.reddit.com/r/GamePhysics/comments/9rqabp/red_dead_redemption_2_things_you_find_in_rdr2/"
+                target="_blank">Source <i class="fas fa-external-link-alt"></i></a>
+            </p>
+
+          </div>
+        </div>
+        <!--/ Horse on the air -->
+
+        <!-- A person stuck in a barrel -->
+        <div class="column">
+          <div class="content">
+            <h2 class="title is-5"><span class="dnerf">InstructGPT </span> - <small>text-davinci-002</small></h2>
+            <p>
+              Q: In the Grand Theft Auto V video game, the following sequence of events happened: </p>
+            </p>
+
+
+            <ol class="alpha">
+              <li> A person is parachuting in the air.</li>
+              <li> A plane approaches the parachuter.</li>
+              <li> The plane hits the cord and loses its right wing.</li>
+              <li> The plane falls from the sky.</li>
+            </ol>
+            </p>
+
+            <p>
+              Which event is a bug?
+            </p>
+            <p>
+              A:<span style="background-color: #c9daf8">The plane hitting the cord and losing its right wing is a
+                bug.</span>
+            </p>
+            <p>
+              Among (a) through (d), the answer is<span style="background-color: #c9daf8"> (c).</span>
+            </p>
+          </div>
+        </div>
+        <!--/ A person stuck in a barrel -->
+
+
+
+
+      </div>
+
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is forked from the
+              <a href="https://nerfies.github.io/">Nerfies website</a> and
+              <a href="https://github.com/nerfies/nerfies.github.io">source code</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
