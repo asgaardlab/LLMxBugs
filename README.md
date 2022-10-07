@@ -3,7 +3,7 @@
 <div>
 
 [![Website](http://img.shields.io/badge/Website-4b44ce.svg)](https://asgaardlab.github.io/LLMxBugs/)
-[![arXiv](https://img.shields.io/badge/arXiv-TBA-b31b1b.svg)](https://arxiv.org/abs/)
+[![arXiv](https://img.shields.io/badge/arXiv-2210.02506-b31b1b.svg)](https://arxiv.org/abs/2210.02506)
 
 </div>
 
